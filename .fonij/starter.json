@@ -1,10 +1,10 @@
 {
-  "schemaVersion": 1,
-  "id": "monorepo-nextjs-fastify",
-  "templateVersion": "1.0.0",
-  "variables": [],
-  "setup": [],
-  "hooks": {
-    "afterCreate": []
-  }
+	"schemaVersion": 1,
+	"id": "monorepo-nextjs-fastify",
+	"templateVersion": "1.0.0",
+	"variables": [],
+	"setup": [],
+	"hooks": {
+		"afterCreate": []
+	}
 }
