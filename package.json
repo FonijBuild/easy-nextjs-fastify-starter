@@ -1,23 +1,27 @@
 {
-  "name": "easy-typescript-monorepo-starter",
-  "version": "0.0.1",
-  "description": "",
-  "private": true,
-  "scripts": {
-    "dev": "pnpm --filter @repo/shared build && turbo run dev",
-    "build": "turbo run build",
-    "check-types": "turbo run check-types",
-    "lint": "biome check .",
-    "lint:fix": "biome check --write .",
-    "format": "biome format --write ."
-  },
-  "devEngines": {
-    "packageManager": {
-      "name": "pnpm",
-      "version": "12.16.1",
-      "onFail": "download"
-    }
-  },
-  "packageManager": "pnpm@12.16.1",
-  "type": "module"
+	"name": "easy-typescript-monorepo-starter",
+	"version": "0.0.1",
+	"description": "",
+	"private": true,
+	"scripts": {
+		"dev": "pnpm --filter @repo/shared build && turbo run dev",
+		"build": "turbo run build",
+		"check-types": "turbo run check-types",
+		"lint": "biome check .",
+		"lint:fix": "biome check --write .",
+		"format": "biome format --write ."
+	},
+	"devEngines": {
+		"packageManager": {
+			"name": "pnpm",
+			"version": "12.16.1",
+			"onFail": "download"
+		}
+	},
+	"packageManager": "pnpm@12.16.1",
+	"type": "module",
+	"devDependencies": {
+		"@biomejs/biome": "^2.6.4",
+		"turbo": "^2.11.10"
+	}
 }
